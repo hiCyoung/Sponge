@@ -1,0 +1,9 @@
+{
+  "title": "4-27月会",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h2><strong>DONE</strong>：</h2>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 在线缴费上线（社保卡的暂停）</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 短信微信消息迁移</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 支持免费挂号（安贞）</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> product报价接口优化，还得继续做，响应时间慢</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 多渠道异常订单处理流程优化：之前是强制退款，现在是查msc后再操作</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 支持同仁根据证件号打印校验单（联调中）</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 运营后台工具完善：支持mtsman退缴费单，退已取号挂号单，小程序接入缴费数据管理，申诉优化</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 运营数据需求：医管局挂号数据，缴费数据</b></li><li class=\"task-list-item\"><input type=\"checkbox\" checked=\"checked\" disabled=\"\"><b> 数据播报三期正在做</b></li></ul>\n<h2><strong>PLAN</strong>：</h2>\n<ul>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\"><b> 医院端工具开始</b></li><li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\"><b> product接口优化</b></li><li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\"><b> 配合测试做自动化测试</b></li><li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\"><b> 数据统计任务平台调研搭建</b></li></ul>\n"
+    }
+  ]
+}
