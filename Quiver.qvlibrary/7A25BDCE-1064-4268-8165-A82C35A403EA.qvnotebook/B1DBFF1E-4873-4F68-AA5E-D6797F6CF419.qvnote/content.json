@@ -1,0 +1,9 @@
+{
+  "title": "Java 知识点大纲",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "<h2>JVM规范</h2>\n\n<h4>class加载过程</h4>\nClassLoader，委托机制\n\n<h4>class file结构</h4>\n类似于 C 语言结构体的伪结构来存储，这种伪结构中只有两种数据类型：无符号数和表。\n<h4>invoke指令</h4>\n\n2 Servlet规范\n\n API\n\n Servlet生命周期\n\n 异步Servlet\n\n3 JVM\n\n 内存区域\n\n Java堆\n\n 方法区\n\n Java方法栈\n\n 本地方法栈\n\n GC代\n\n 新生代\n\n Eden\n\n Survivor\n\n 旧生代\n\n 持久代\n\n 不同类型GC\n\n Serial\n\n ParNew\n\n Parallel Scavenge\n\n Serial Old\n\n Parallel Old\n\n CMS\n\n G1\n\n Reference\n\n Strong\n\n Weak\n\n Soft\n\n JVM options\n\n OOM\n\n 常用java性能诊断工具\n\n jps\n\n jstat\n\n jmap\n\n jstack\n\n jinfo\n\n jConsole\n\n jVisualVM\n\n BTrace\n\n4 Java Concurrent\n\n keyword\n\n synchronized\n\n volatile\n\n 锁\n\n 原子性/可见性\n\n 并发相关的一些数据结构\n\n ConcurrentHashMap\n\n LinkedBlockQueue\n\n AtomicXxx\n\n Executor框架\n\n Future\n\n Java内存模型\n\n5 Java NIO\n\n Buffer\n\n Channel\n\n Selector\n\n6 集合类\n\n JDK内置的集合类的实现方式以及使用场景\n\n List\n\n ArrayList\n\n LinkedList\n\n Set\n\n HashSet\n\n LinkedSet\n\n TreeSet\n\n Map\n\n HashMap\n\n TreeMap\n\n 等"
+    }
+  ]
+}

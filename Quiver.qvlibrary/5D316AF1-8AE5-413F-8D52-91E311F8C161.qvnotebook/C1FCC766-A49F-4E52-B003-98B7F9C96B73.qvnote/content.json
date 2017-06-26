@@ -1,0 +1,9 @@
+{
+  "title": "Mysql Update",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<p><u><b><i>Single-table语法：</i></b></u></p>\n<p>UPDATE [LOW_PRIORITY] [IGNORE] tbl_name SET col_name1=expr1 [, col_name2=expr2 ...]<br>\n[WHERE where_definition]<br>\n[ORDER BY ...]<br>\n[LIMIT row_count]</p>\n<p><u><b><i>Multiple-table语法：</i></b></u></p>\n<p>UPDATE [LOW_PRIORITY] [IGNORE] table_references SET col_name1=expr1 [, col_name2=expr2 ...][WHERE where_definition]</p>\n<p><br></p><p>UPDATE语法可以用新值更新原有表行中的各列。SET子句指示要修改哪些列和要给予哪些值。WHERE子句指定应更新哪些行。如果没有WHERE子句，则更新所有的行。如果指定了ORDER BY子句，则按照被指定的顺序对行进行更新。LIMIT子句用于给定一个限值，限制可以被更新的行的数目。</p>\n<p>如果您在一个表达式中通过tbl_name访问一列，则UPDATE使用列中的当前值。例如，以下语句把年龄列设置为比当前值多一：</p>\n<p>UPDATE persondata SET age=age+1;</p>\n<p>UPDATE赋值被从左到右评估。例如，以下语句对年龄列加倍，然后再进行增加：</p>\n<p>UPDATE persondata SET age=age*2, age=age+1;</p>\n<p>如果您把一列设置为其当前含有的值，则MySQL会注意到这一点，但不会更新。</p>\n<p><b><i><br></i></b></p><p><b><i>update表的某些字段为null</i></b></p>\n<p>update person set number=null,name=null;</p>\n<p>如果您把被已定义为NOT NULL的列更新为NULL，则该列被设置到与列类型对应的默认值，并且累加警告数。对于数字类型，默认值为0；对于字符串类型，默认值为空字符串('')；对于日期和时间类型，默认值为“zero”值。</p>\n<p><b><i><br></i></b></p><p><b><i>多个表的UPDATE操作</i></b></p>\n<p>UPDATE items,month SET items.price=month.price WHERE items.id=month.id;</p>\n<p>以上的例子显示出了使用逗号操作符的内部联合，但是multiple-table UPDATE语句可以使用在SELECT语句中允许的任何类型的联合，比如LEFT JOIN，但是您不能把ORDER BY或LIMIT与multiple-table UPDATE同时使用。</p>\n<p>update ignore 如果更新的列中存在unique列,则如果表中该列存在要修改的数据,则不执行.</p>\n"
+    }
+  ]
+}

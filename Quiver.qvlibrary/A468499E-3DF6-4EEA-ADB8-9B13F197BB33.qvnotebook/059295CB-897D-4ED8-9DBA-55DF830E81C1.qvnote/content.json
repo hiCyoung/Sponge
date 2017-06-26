@@ -1,0 +1,9 @@
+{
+  "title": "logback manually rollover",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<a href=\"https://stackoverflow.com/questions/30374476/logback-manually-call-rollover\">https://stackoverflow.com/questions/30374476/logback-manually-call-rollover</a>"
+    }
+  ]
+}
