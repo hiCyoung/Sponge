@@ -1,0 +1,9 @@
+{
+  "title": "位，字节，二进制，十六进制间的关系",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div id=\"article_content\" class=\"article_content tracking-ad\" data-mod=\"popu_307\" data-dsm=\"post\" style=\"margin: 20px 0px 0px; font-variant-ligatures: normal; font-variant-east-asian: normal; font-variant-position: normal; font-stretch: normal; font-size: 14px; line-height: 26px; font-family: Arial;\"><p style=\"margin: 0px; padding: 0px;\"><span style=\"color: rgb(0, 0, 0); font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">二进制，是计算机为了快速方便而采用的一种记数方式，十六进制也是一种常用的记数方式。位（bit）就是一个二进制位，即可表示0和1，而字节(Byte)是计算机更通用的计算单位，1字节等于8位，可以代表256个数字（在编程中可以通过这些数字作为判断），int类型一般为4字节，即32位。一个十六进制数，如0xf，代表16个数字，2的4次方，即4位，所以两个十六进制数如0xff就是一个字节</span></p></div>"
+    }
+  ]
+}
